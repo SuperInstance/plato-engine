@@ -1,0 +1,11 @@
+/home/phoenix/.openclaw/workspace/plato-engine/target/debug/deps/ciborium_ll-04b7bef3fdb0476e.d: /home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/lib.rs /home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/dec.rs /home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/enc.rs /home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/hdr.rs /home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/seg.rs
+
+/home/phoenix/.openclaw/workspace/plato-engine/target/debug/deps/libciborium_ll-04b7bef3fdb0476e.rlib: /home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/lib.rs /home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/dec.rs /home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/enc.rs /home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/hdr.rs /home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/seg.rs
+
+/home/phoenix/.openclaw/workspace/plato-engine/target/debug/deps/libciborium_ll-04b7bef3fdb0476e.rmeta: /home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/lib.rs /home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/dec.rs /home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/enc.rs /home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/hdr.rs /home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/seg.rs
+
+/home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/lib.rs:
+/home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/dec.rs:
+/home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/enc.rs:
+/home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/hdr.rs:
+/home/phoenix/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ciborium-ll-0.2.2/src/seg.rs:
