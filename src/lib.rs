@@ -34,7 +34,11 @@ pub fn default_gate(tile: &Tile) -> GateResult {
     GateResult {
         passed,
         score: tile.quality_score,
-        reason: if passed { None } else { Some("below threshold".into()) },
+        reason: if passed {
+            None
+        } else {
+            Some("below threshold".into())
+        },
     }
 }
 
@@ -45,8 +49,11 @@ mod tests {
     #[test]
     fn test_default_gate_passes() {
         let tile = Tile {
-            id: 1, room: "default".into(), tags: vec!["test".into()],
-            quality_score: 0.8, content: vec![],
+            id: 1,
+            room: "default".into(),
+            tags: vec!["test".into()],
+            quality_score: 0.8,
+            content: vec![],
         };
         let result = default_gate(&tile);
         assert!(result.passed);
@@ -56,8 +63,11 @@ mod tests {
     #[test]
     fn test_default_gate_rejects() {
         let tile = Tile {
-            id: 2, room: "default".into(), tags: vec![],
-            quality_score: 0.2, content: vec![],
+            id: 2,
+            room: "default".into(),
+            tags: vec![],
+            quality_score: 0.2,
+            content: vec![],
         };
         let result = default_gate(&tile);
         assert!(!result.passed);
@@ -67,8 +77,11 @@ mod tests {
     #[test]
     fn test_tile_serde_roundtrip() {
         let tile = Tile {
-            id: 42, room: "music".into(), tags: vec!["gagaku".into(), "constraint".into()],
-            quality_score: 0.95, content: vec![1, 2, 3],
+            id: 42,
+            room: "music".into(),
+            tags: vec!["gagaku".into(), "constraint".into()],
+            quality_score: 0.95,
+            content: vec![1, 2, 3],
         };
         let json = serde_json::to_string(&tile).unwrap();
         let back: Tile = serde_json::from_str(&json).unwrap();
